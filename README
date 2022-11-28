@@ -1,0 +1,42 @@
+### Title: codeChallenge 
+## Challenge 1: Student Grade
+
+## Description 
+This is a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
+
+A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+
+# Project Setup
+To run the program, run the code in the website. There will be a table where you can input the value and click on the button. This will run the program. Each value can be tested to ascertain that it works. The program only accepts numerical values. If the input section is not filled with any value the program prompts the user to input value. Only values ranging from 0 to 100 will be accepted. Values below or above the range will not be accepted also by the program.
+
+
+
+
+
+
+
+## Challenge 2: Speed Detector (Toy Problem)
+
+## Description
+This is a program that takes as input the speed of a car. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+
+# Project Setup
+ To run the program, run the code in the website. There will be a table where you can input the value and click on the button. This will run the program. Each value can be tested to ascertain that it works. The program only accepts numerical values. If the input section is not filled with any value the program prompts the user to input value. Only values ranging from 1 to 240 will be accepted. Values below or above the range will not be accepted also by the program.
+The codes have been explained in the comment section with step by step description of the various sections of the code. 
+
+
+## Title : Challenge 3: Net Salary Calculator (Toy Problem)
+
+# Description
+This is a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary.
+
+# Project Setup 
+To run the program, run the code in the website. There will be a table where you can input the value and click on the button. This will run the program. Each value can be tested to ascertain that it works. The program only accepts numerical values. If the input section is not filled with any value the program prompts the user to input value. Only values ranging from 1 to 240 will be accepted. Values below or above the range will not be accepted also by the program.
+The codes have been explained in the comment section with step by step description of the various sections of the code. 
+
+
+
+
+
+
+

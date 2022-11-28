@@ -20,7 +20,11 @@
             </table>
          </form> 
             <script type="text/javascript">
-                         
+               //this is a function that is called getSpeed that have the various conditions that must be met for the input to meet the valid conditions according to the instructions needed for the challenge   
+               //the initial if statement is ensuring that only numbers can be used as the value input
+               //the second ensures that the input string is not empty
+               //the parseInt is used in this case to ensure that we operate with values with floats or interger values
+               //the switch statement ensures that the conditions are run should a truthy be the value input       
               function getSpeed()  
               {  
                 var value = document.form.speed.value
