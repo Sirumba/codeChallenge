@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>student grade generator</title>
+    </head>
+    <body>
+        <form name = "form" onsubmit = "return(getGrade());">
+            <table cellspacing = "2" cellpadding = "2" border = "1">
+               
+               <tr>
+                  <td align = "right">grade</td>
+                  <td><input type = "text" name = "grade" /></td>
+               </tr>
+               
+               
+               <tr>
+                  <td align = "right"></td>
+                  <td><input type = "submit" value = "Submit" /></td>
+               </tr>
+               
+            </table>
+         </form> 
+            <script type="text/javascript">
+              //We create a function that is called getGrade which will help us define the action that we want to do which is to generate the grade.
+              //after that we create a variable value and assign the           
+              function getGrade()  
+              {  
+                var value = document.form.grade.value
+                if(isNaN(value)){
+                    alert("input should only include numbers");  
+                      return false; 
+                }
+                  if(value.length=="") {  
+                      alert("messagebox is empty");  
+                      return false;  
+                  }
+                  if (parseInt(value)<0 || parseInt(value)>100) {
+                    alert("values should range between 0 - 100");  
+                      return false;
+                  }
+                  //should the above condition be true then the switch statement below be executed, which means if a number is inputed in the value box that is a truthy then the below code will run
+                  switch (true) {
+                    case (value<40):
+                        alert("Your Grade is E")
+                        break;
+                    case (value<50):
+                        alert("Your Grade is D")
+                        break;
+                    case (value<60):
+                        alert("Your Grade is C")
+                        break;
+                    case (value<80):
+                        alert("Your Grade is B")
+                        break;
+                    default:
+                         alert("Your Grade is A")
+                        break;
+                  }
+                  return false;
+              }  
+              
+            </script> 
+    </body>
+</html>

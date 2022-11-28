@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>student grade generator</title>
+    </head>
+    <body>
+        <form name = "form" onsubmit = "return(getSpeed());">
+            <table cellspacing = "2" cellpadding = "2" border = "1">
+               
+               <tr>
+                  <td align = "right">speed</td>
+                  <td><input type = "text" name = "speed" /></td>
+               </tr>
+               
+               
+               <tr>
+                  <td align = "right"></td>
+                  <td><input type = "submit" value = "Submit" /></td>
+               </tr>
+               
+            </table>
+         </form> 
+            <script type="text/javascript">
+                         
+              function getSpeed()  
+              {  
+                var value = document.form.speed.value
+                if(isNaN(value)){
+                    alert("input should only include numbers");  
+                      return false; 
+                }
+                  if(value.length=="") {  
+                      alert("messagebox is empty");  
+                      return false;  
+                  }
+                  if (parseInt(value)<0 || parseInt(value)>240) {
+                    alert("values should range between 0 - 240");  
+                      return false;
+                  }
+                  switch (true) {
+                    case (value<=70):
+                        alert("OK")
+                        break;
+                    default:
+                         getDemerits(value);
+                        break;
+                  }
+                  return false;
+              } 
+             function getDemerits(speed){
+                var extra_kmh = parseFloat(speed)-70.0;
+                var demerits = extra_kmh/5;
+                alert(Math.round(demerits));
+                return false;
+              }
+              
+            </script> 
+    </body>
+</html>
