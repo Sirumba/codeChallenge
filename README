@@ -13,7 +13,7 @@ A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 -choose the repo where you want to clone into and run:
 'git clone git@github.com:Sirumba/codeChallenge.git'
 using the terminal
--to run the program, run the code in the website.
+-to run the program, run the code in the browser.
 -There will be a table where you can input the value and click on the button.
 -You can input the number in the box to get the grade. 
 -Each value can be tested to ascertain that it works. 
@@ -40,7 +40,7 @@ in the link
 - copy the git ssh link 
 - choose the repo where you want to clone into and run:
 git clone git@github.com:Sirumba/codeChallenge.git
-- to run the program, run the code in the website.
+- to run the program, run the code in the browser.
 - There will be a table where you can input the value and click on the button. 
 - This will allow you to test whether the program performs the needed functionality. That is, input the values and check the points as the output
 - Each value can be tested to ascertain that it works. 
@@ -63,7 +63,7 @@ in the link
 - copy the git ssh link 
 - choose the repo where you want to clone into and run:
 'git clone git@github.com:Sirumba/codeChallenge.git'
-- to run the program, run the code in the website.
+- to run the program, run the code in the browser.
 - There will be a table where you can input the value and click on the button. 
 - This will allow you to test whether the program performs the needed functionality. That is,the input values will check the NET SALARY value given the amount of the gross salary that will be entered. 
 - Each value can be tested to ascertain that it works. 
