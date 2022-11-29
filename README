@@ -9,11 +9,13 @@ A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
 # Project Setup
 -to run the program got to the given repository, in the link
--copy the git ssh link 
--choose the repo where you want to clone into and run:
-'git clone git@github.com:Sirumba/codeChallenge.git'
-using the terminal
--to run the program, run the code in the browser.
+- copy the git ssh link 
+- Open the terminal
+- choose the repo where you want to clone into and run:
+
+git clone https://git@github.com:Sirumba/codeChallenge.git
+- Open it in ``Visual Studio Code``
+- Open the code in the Chrome browser.
 -There will be a table where you can input the value and click on the button.
 -You can input the number in the box to get the grade. 
 -Each value can be tested to ascertain that it works. 
@@ -36,11 +38,13 @@ This is a program that takes as input the speed of a car. If the speed is less t
 - to run the program got to the given repository, 
 - To use this repo on your machine requires some simple steps
 in the link
-- open the terminal
 - copy the git ssh link 
+- Open the terminal
 - choose the repo where you want to clone into and run:
-git clone git@github.com:Sirumba/codeChallenge.git
-- to run the program, run the code in the browser.
+
+git clone https://git@github.com:Sirumba/codeChallenge.git
+- Open it in ``Visual Studio Code``
+- Open the code in the Chrome browser.
 - There will be a table where you can input the value and click on the button. 
 - This will allow you to test whether the program performs the needed functionality. That is, input the values and check the points as the output
 - Each value can be tested to ascertain that it works. 
@@ -59,10 +63,13 @@ This is a program whose major task is to calculate an individual’s Net Salary 
 - to run the program go to the given repository, 
 - To use this repo on your machine requires some simple steps
 in the link
-- open the terminal
 - copy the git ssh link 
+- Open the terminal
 - choose the repo where you want to clone into and run:
-'git clone git@github.com:Sirumba/codeChallenge.git'
+
+git clone https://git@github.com:Sirumba/codeChallenge.git
+
+- Open it in ``Visual Studio Code``
 - to run the program, run the code in the browser.
 - There will be a table where you can input the value and click on the button. 
 - This will allow you to test whether the program performs the needed functionality. That is,the input values will check the NET SALARY value given the amount of the gross salary that will be entered. 
