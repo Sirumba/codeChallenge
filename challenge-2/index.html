@@ -40,6 +40,10 @@
                     alert("values should range between 0 - 240");  
                       return false;
                   }
+                  if (value > 130){
+                    alert ("Your License is expired")
+                    return false; 
+                  }
                   switch (true) {
                     case (value<=70):
                         alert("OK")
@@ -53,7 +57,7 @@
              function getDemerits(speed){
                 var extra_kmh = parseFloat(speed)-70.0;
                 var demerits = extra_kmh/5;
-                alert(Math.round(demerits));
+                alert(`Points: ${Math.round(demerits)}`);
                 return false;
               }
               

@@ -1,8 +1,7 @@
-<html>
-    <head>
+<html>   
+<head>
         <title>student grade generator</title>
     </head>
-
     <body>
         <form name = "form" onsubmit = "return(getGrade());">
             <table cellspacing = "2" cellpadding = "2" border = "1">
@@ -21,8 +20,12 @@
             </table>
          </form> 
             <script type="text/javascript">
+              //the above code using the script tag allows us to insert the Javascript code within the HTML file
+              //the next was to use the form tag is used to create an HTML form for user input.
+              //the table tag creates the table that will house the grade and submit cells
+              //Javascript code is explained as bellow:
               //We create a function that is called getGrade which will help us define the action that we want to do which is to generate the grade.
-              //after that we create a variable value and assign the           
+              //within the function we need to ensure that the value input is not a number (NaN),or empty, and is between the value 0-100 this is what the first 3 'if statements' accomplish          
               function getGrade()  
               {  
                 var value = document.form.grade.value
@@ -38,7 +41,7 @@
                     alert("values should range between 0 - 100");  
                       return false;
                   }
-                  //should the above condition be true then the switch statement below be executed, which means if a number is inputed in the value box that is a truthy then the below code will run
+                  //should the above condition return a truthy value, the the switch statement below will be run 
                   switch (true) {
                     case (value<40):
                         alert("Your Grade is E")
